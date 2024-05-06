@@ -1,0 +1,16 @@
+{
+  "name": "practicehelloplaywright",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "vscode-debug": "playwright test tests/example.spec.js --config ./playwright.config.js --workers=1 --project=firefox"
+  },
+  "keywords": [],
+  "author": "Truong Nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7",
+    "dotenv": "^16.4.5"
+  }
+}
