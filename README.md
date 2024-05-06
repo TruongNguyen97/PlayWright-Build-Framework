@@ -127,8 +127,8 @@ Or go to project root folder then open CMD windows and execute command:
 npx playwright install
 
 ```
-## Define test config before run test
-``` Fill data config into file .env
+## Define test config before run test - Fill data config into file .env
+``` 
 STAGING=1
 
 # Demo QA
